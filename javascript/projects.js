@@ -87,14 +87,14 @@ function makeCard(array, location) {
         location.innerHTML += 
         `<div class="col text-center mb-5">
             <div class="card h-100">
-            <img src=${project.image} class="card-img-top" alt="...">
-            <div class="card-body">
-                <h4 class="card-title mb-3">${project.title}</h4>
-                <h5>Code Used</h5>
-                <p>${project.codes}</p>
-                <p class="card-text mb-3">${project.description}</p>
-                <a href=${project.address} target="_blank" class="btn btn-primary">View Project</a>
-            </div>
+                <img src=${project.image} class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column">
+                    <h4 class="card-title mb-3">${project.title}</h4>
+                    <h5>Code Used</h5>
+                    <p>${project.codes}</p>
+                    <p class="card-text mb-3">${project.description}</p>
+                    <a href=${project.address} target="_blank" class="btn btn-primary mt-auto">View Project</a>
+                </div>
             </div>
         </div>`
     })

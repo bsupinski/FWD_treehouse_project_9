@@ -1,0 +1,9 @@
+svg{
+    width: 100px;
+    transition: ease-in-out 200ms
+}
+
+svg:hover{
+    transform: scale(1.1);
+    transition: ease-in-out 200ms;
+}

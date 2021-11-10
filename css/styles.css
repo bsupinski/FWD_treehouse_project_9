@@ -375,11 +375,19 @@ template {
 }
 
 .card-img-top {
-  min-height: 150px;
+  max-height: 150px;
 }
 
 .social-media {
   font-size: 2.75rem;
+}
+
+div a i {
+  color: red;
+}
+
+.code-choice {
+  cursor: pointer;
 }
 
 svg {
