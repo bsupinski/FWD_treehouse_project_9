@@ -61,17 +61,15 @@
     <div class="col-md-4 ms-auto"> <!--Searchbar-->
       <div class="input-group mb-3 shadow">
         <span class="input-group-text" id="inputGroup-sizing-default">Search</span>
-        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        <input type="text" class="form-control" id = "searchBox" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
       </div>
     </div>
     </div>
-
     <div class="row d-none d-md-flex my-5" id="code_choices"> <!--Codes Used-->
       <div class="col-md d-flex flex-column text-center">
-        <div class="code_choice">
-          <div class="svg_container">
-            <svg class ="code" version="1.1" id="Layer_5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-               viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+        <div class="code_choice" id="html-5_filter">
+          <svg class ="code" version="1.1" id="Layer_5" xmlns="http://www.w3.org/ 2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+              viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
             <g>
               <polygon  class = "html5-background" fill="#E54C25" stroke="#E54C25" stroke-miterlimit="10" points="56.5,52.5 345.32,52.5 319.5,349.5 200,382.86 
                 81.5,348.5 	"/>
@@ -80,23 +78,21 @@
                 200.4,150.5 150.49,151.23 152.51,186.5 284.72,186.5 276.5,300.5 200.68,321.37 126.5,299.5 122.5,242.5 158.5,242.5 159.5,271.5 
                 200,282.87 239.5,272.5 244.5,223.5 119.5,225.5 	"/>
             </g>
-            </svg>
-          </div>
+          </svg>
           <h4 class=>HTML 5</h4>
         </div>
       </div>
       <div class="col-md d-flex flex-column text-center">
-        <div class="code_choice">
-          <div class="svg_container">
+        <div class="code_choice" id="css_filter">
             <svg class ="code" version="1.1" id="Layer_5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
-<g>
-	<polygon fill="#0B74B7" stroke="#0B74B7" stroke-miterlimit="10" points="56.5,52.5 345.32,52.5 319.5,349.5 200,382.86 
-		81.5,348.5 	"/>
-	<polygon fill="#2EAADD" stroke="#2EAADD" stroke-miterlimit="10" points="200.5,78.5 320.09,76.77 297.09,329.77 200.5,353.67 	"/>
-</g>
-<g id="XMLID_00000157309367067467072070000000079370256469220013_">
-	<g>
+            <g>
+              <polygon fill="#0B74B7" stroke="#0B74B7" stroke-miterlimit="10" points="56.5,52.5 345.32,52.5 319.5,349.5 200,382.86 
+                81.5,348.5 	"/>
+              <polygon fill="#2EAADD" stroke="#2EAADD" stroke-miterlimit="10" points="200.5,78.5 320.09,76.77 297.09,329.77 200.5,353.67 	"/>
+            </g>
+            <g id="XMLID_00000157309367067467072070000000079370256469220013_">
+              <g>
 		<polygon fill="#FEFEFE" points="291.61,112.5 288.58,149.51 288.5,149.5 200.07,149.5 111.5,149.49 108.5,112.5 		"/>
 		<polygon fill="#FEFEFE" points="284.49,186.5 276.5,297.5 200,318.7 126.5,298.5 121.5,239.5 158.5,240.5 160.5,270.5 200,281.16 
 			239.5,270.5 244.5,223.5 118.49,223.5 116.54,186.52 117,186.5 207.5,186.5 208,186.5 		"/>
@@ -107,14 +103,12 @@
 	</g>
 </g>
             </svg>
-          </div>
           <h4>CSS</h4>
         </div>
       </div>
       <div class="col-md d-flex flex-column text-center">
-        <div class="code_choice">
-          <div class="svg_container">
-            <svg class ="code" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        <div class="code_choice" id="sass_filter">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <g id="Javascript">
 	<path fill="#D56EA3" d="M33.5,85.6c0,0,0-23.1,25-29.1h276.84c0,0,21.16,4,24.16,26s2,277,2,277s-2,21-23,25s-276.43,0-276.43,0
@@ -153,13 +147,11 @@
 		c1.59,0.74,1.39,2.46,1.23,3.8C231.63,276.75,228.21,281.65,220.34,284.22z"/>
 </g>
             </svg>
-          </div>
           <h4>Sass</h4>
         </div>
       </div>
       <div class="col-md d-flex flex-column text-center">
-        <div class="code_choice">
-          <div class="svg_container ">
+        <div class="code_choice" id="javascript_filter">
             <svg class ="code" version="1.1" id="Javascript" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
 <g>
@@ -173,31 +165,28 @@
 <polygon id="J" fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" points="208,114.5 290.43,114.5 289,150 245.04,150 
 	246,188 284.96,188 276,299 208,317.51 208,280.68 242,270 245,223 208,223.42 "/>
 </svg>
-          </div>
           <h4>Javascript</h4>
         </div>
       </div>
       <div class="col-md d-flex flex-column text-center">
-        <div class="code_choice">
-          <div class="svg_container ">
-            <svg class ="code" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-            viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
-         <g id="background">
-           <path fill="#563D7C" d="M96.52,51h207.09c0,0,44.89,3.82,43.39,50.16c1.5,48.34,0,198.18,0,198.18s1.31,39.16-46.59,49.66
-             c-46.91-0.5-205.66,0-205.66,0S51.5,345.02,49,300.76c0.5-45.26,0-202.46,0-202.46S45.55,52.5,96.52,51z"/>
-         </g>
-         <g id="B">
-           <path fill="#FFFFFF" d="M129.5,116.5h100.33c0,0,37.67,4,36.67,41s-25,38-25,38s34,10,32,41s-12,46-44,52c-30,1-100,0-100,0V116.5z
-             "/>
-         </g>
-         <g id="cutouts">
-           <path fill="#563D7C" stroke="#FFFFFF" stroke-miterlimit="10" d="M160.5,210.5h63.56c0,0,18.44,3,19.44,24s-19,29-19,29h-64V210.5z
-             "/>
-           <path fill="#563D7C" stroke="#FFFFFF" stroke-miterlimit="10" d="M159.57,140.73h58.56c0,0,16.99,2.75,17.91,21.96
-             s-17.5,26.54-17.5,26.54h-58.96V140.73z"/>
-         </g>
-            </svg>
-          </div>
+        <div class="code_choice" id="bootstrap_filter">
+          <svg class ="code" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+          viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+            <g id="background">
+              <path fill="#563D7C" d="M96.52,51h207.09c0,0,44.89,3.82,43.39,50.16c1.5,48.34,0,198.18,0,198.18s1.31,39.16-46.59,49.66
+                c-46.91-0.5-205.66,0-205.66,0S51.5,345.02,49,300.76c0.5-45.26,0-202.46,0-202.46S45.55,52.5,96.52,51z"/>
+            </g>
+            <g id="B">
+              <path fill="#FFFFFF" d="M129.5,116.5h100.33c0,0,37.67,4,36.67,41s-25,38-25,38s34,10,32,41s-12,46-44,52c-30,1-100,0-100,0V116.5z
+                "/>
+            </g>
+            <g id="cutouts">
+              <path fill="#563D7C" stroke="#FFFFFF" stroke-miterlimit="10" d="M160.5,210.5h63.56c0,0,18.44,3,19.44,24s-19,29-19,29h-64V210.5z
+                "/>
+              <path fill="#563D7C" stroke="#FFFFFF" stroke-miterlimit="10" d="M159.57,140.73h58.56c0,0,16.99,2.75,17.91,21.96
+                s-17.5,26.54-17.5,26.54h-58.96V140.73z"/>
+            </g>
+          </svg>
           <h4>Bootstrap</h4>
         </div>
       </div>

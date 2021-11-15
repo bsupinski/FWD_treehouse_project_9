@@ -64,7 +64,7 @@ treehouseProjects = [
  otherProjects= [
     project1 = {
         title: "My Person Profile Page",
-        codes: "HTML CSS",
+        codes: "HTML CSS Bootstrap",
         description: "This was the introduction project. It required changing some of the HTML elements and adding a new page.",
         image: "images/project-1.jpg",
         address: "https://bsupinski.github.io/FWD_treehouse_project_1"
