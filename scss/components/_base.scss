@@ -14,3 +14,9 @@ div a i{
     cursor: pointer;
 }
 
+.carrot-open {
+    font-size: 30px;
+    transform: rotate(90deg);
+    transition: ease-in-out 500ms;
+   
+}

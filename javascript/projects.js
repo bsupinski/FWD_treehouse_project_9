@@ -1,3 +1,4 @@
+//Set up to be able to add more projects easily
 const projectCardsContainer = document.getElementById("card-teamhouse-project");
 const otherProjectsContainer = document.getElementById("card-teamhouse-practice");
 
@@ -99,7 +100,6 @@ function makeCard(array, location) {
         </div>`
     })
 };
-
 
 makeCard(treehouseProjects, projectCardsContainer)
 makeCard(otherProjects, otherProjectsContainer)
