@@ -14,9 +14,27 @@ div a i{
     cursor: pointer;
 }
 
-.carrot-open {
+.carrot-open,
+.carrot-close {
     font-size: 30px;
-    transform: rotate(90deg);
-    transition: ease-in-out 500ms;
-   
+    transition: ease-out 350ms;
+    margin: 5px 0 0 10px;
+}
+
+.carrot-open {
+    transform:rotate(90deg)
+}
+
+.portfolio-section{
+    display: inline;
+}
+
+.project-toggle-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.project-toggle-wrap h4 {
+    margin: 0;    
 }

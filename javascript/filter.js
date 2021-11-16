@@ -62,7 +62,7 @@ codeChoice.forEach(choice => {
 
 // Resetting code filter
 window.addEventListener("click", (e) =>{
-    if(e.target.classList.contains("card") || (e.target.parentNode.classList.contains("card")) || (e.target.parentNode.parentNode.classList.contains("card")) || (e.target === searchBar)) {
+    if(e.target.classList.contains("card") || (e.target.parentNode.classList.contains("card")) || (e.target.parentNode.parentNode.classList.contains("card")) || (e.target === searchBar) || (e.target.classList.contains("carrot"))) {
         return;
     }
     else{
@@ -81,7 +81,20 @@ portfolioToggle.forEach(carrot => {
     carrot.addEventListener("click", ()=> {
         if(carrot.classList.contains("carrot-open")){
             console.log("hello");
-            carrot.style.transform = "rotate(0deg)"
+            carrot.style.transform = "rotate(0deg)";
+            carrot.classList.remove("carrot-open");
+            carrot.classList.add("carrot-close");
+            carrot.parentNode.nextSibling.nextSibling.style.display ="none"
+            
+        }
+        else{
+            carrot.style.transform = "rotate(90deg)";
+            carrot.classList.remove("carrot-close");
+            carrot.classList.add("carrot-open");
+            carrot.parentNode.nextSibling.nextSibling.style.display ="flex";
         }
     })
 })
+
+
+
