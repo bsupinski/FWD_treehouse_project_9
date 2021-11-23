@@ -73,10 +73,6 @@ window.addEventListener("click", (e) =>{
     }
 }, true)
 
-
-//Searchbar call
-search(searchBar, cards)
-
 portfolioToggle.forEach(carrot => {
     carrot.addEventListener("click", ()=> {
         if(carrot.classList.contains("carrot-open")){
@@ -84,17 +80,23 @@ portfolioToggle.forEach(carrot => {
             carrot.style.transform = "rotate(0deg)";
             carrot.classList.remove("carrot-open");
             carrot.classList.add("carrot-close");
-            carrot.parentNode.nextSibling.nextSibling.style.display ="none"
-            
+            carrot.parentNode.nextSibling.nextSibling.style.display ="none";
         }
         else{
             carrot.style.transform = "rotate(90deg)";
             carrot.classList.remove("carrot-close");
             carrot.classList.add("carrot-open");
             carrot.parentNode.nextSibling.nextSibling.style.display ="flex";
+            
         }
     })
 })
+
+
+//Searchbar call
+search(searchBar, cards)
+
+
 
 
 

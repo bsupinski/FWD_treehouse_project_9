@@ -94,7 +94,7 @@ function makeCard(array, location) {
                     <h5>Code Used</h5>
                     <p>${project.codes}</p>
                     <p class="card-text mb-3">${project.description}</p>
-                    <a href=${project.address} target="_blank" class="btn btn-primary mt-auto">View Project</a>
+                    <a href=${project.address} target="_blank" class="btn btn-myColor mt-auto">View Project</a>
                 </div>
             </div>
         </div>`
