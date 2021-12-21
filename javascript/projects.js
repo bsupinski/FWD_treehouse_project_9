@@ -63,21 +63,71 @@ treehouseProjects = [
     
 ];
  otherProjects= [
-    project1 = {
-        title: "My Person Profile Page",
-        codes: "HTML CSS Bootstrap",
-        description: "This was the introduction project. It required changing some of the HTML elements and adding a new page.",
-        image: "images/project-1.jpg",
-        address: "https://bsupinski.github.io/FWD_treehouse_project_1"
+    practice1 = {
+        title: "Chatapp- Mockup",
+        codes: "HTML CSS Sass Javascript",
+        description: "You've been asked to create a chat interface! This will test your CSS skills by structuring multiple elements within a single container.",
+        image: "images/practice-1.jpg",
+        address: "https://bsupinski.github.io/FWD_treehouse_practice_1"
     },
 
-    project1 = {
-        title: "My Person Profile Page",
-        codes: "HTML CSS",
-        description: "This was the introduction project. It required changing some of the HTML elements and adding a new page.",
-        image: "images/project-1.jpg",
-        address: "https://bsupinski.github.io/FWD_treehouse_project_1"
+    practice2 = {
+        title: "Featherlite Note Taking app",
+        codes: "HTML CSS  Sass Javascript",
+        description: "The design team at your company has come to you with some mockups for a potential note taking application your company wants to create; Feather. Feather will have two version LITE and PRO.",
+        image: "images/practice-2.jpg",
+        address: "https://bsupinski.github.io/FWD_Treehouse_practice_2/"
     },
+    practice3 = {
+        title: "Firebase.js",
+        codes: "HTML CSS  Sass Javascript",
+        description: "Create a page to show off feature of the new firebase.js.",
+        image: "images/practice-3.jpg",
+        address: "https://bsupinski.github.io/FWD_Treehouse_practice_3/"
+    },
+    bs_udemy_1 = {
+        title: "Bootstrap Portfolio Template",
+        codes: "HTML Bootstrap 5",
+        description: "Using strictly bootstrap 5 classes, create a portfolio template.",
+        image: "images/bs_portfolio.jpg",
+        address: "https://bsupinski.github.io/bs_udemy_portfolio/"
+    },
+    bs_udemy_2 = {
+        title: "Bootstrap Resume Template",
+        codes: "HTML Bootstrap 5",
+        description: "Using strictly bootstrap 5 classes, create a portfolio template.",
+        image: "images/bs_resume.jpg",
+        address: "https://bsupinski.github.io/bs_udemy_resume/"
+    },
+    bs_udemy_3 = {
+        title: "Bootstrap Knowledgebase Template",
+        codes: "HTML Bootstrap 5",
+        description: "Using strictly bootstrap 5 classes, create a portfolio template.",
+        image: "images/bs_Knowledgebase.jpg",
+        address: "https://bsupinski.github.io/bs_udemy_knowledgebase/"
+    },
+    bs_udemy_4 = {
+        title: "Bootstrap Survey Template",
+        codes: "HTML Bootstrap 5",
+        description: "Using strictly bootstrap 5 classes, create a portfolio template.",
+        image: "images/bs_survey.jpg",
+        address: "https://bsupinski.github.io/bs_udemy_survey/"
+    },
+    bs_udemy_4 = {
+        title: "Bootstrap Landing PAge Template",
+        codes: "HTML Bootstrap 5",
+        description: "Using strictly bootstrap 5 classes, create a portfolio template.",
+        image: "images/bs_landingpage.jpg",
+        address: "https://bsupinski.github.io/bs_udemy_landingpage/"
+    },
+    bs_udemy_4 = {
+        title: "Bootstrap Small Business Template",
+        codes: "HTML Bootstrap 5",
+        description: "Using strictly bootstrap 5 classes, create a portfolio template.",
+        image: "images/bs_smallbusiness.jpg",
+        address: "https://bsupinski.github.io/bs_udemy_smallbusiness/"
+    
+    }
     
     
 
@@ -86,15 +136,15 @@ treehouseProjects = [
 function makeCard(array, location) {
     Array.from(array).forEach(project => {
         location.innerHTML += 
-        `<div class="col text-center mb-5">
-            <div class="card h-100">
-                <img src=${project.image} class="card-img-top" alt="...">
+        `<div class="col text-center mb-1">
+            <div class="card h-100 border border-primary shadow">
+                <img src=${project.image} class="card-img-top border-bottom border-primary" alt="...">
                 <div class="card-body d-flex flex-column">
                     <h4 class="card-title mb-3">${project.title}</h4>
                     <h5>Code Used</h5>
                     <p>${project.codes}</p>
                     <p class="card-text mb-3">${project.description}</p>
-                    <a href=${project.address} target="_blank" class="btn btn-myColor mt-auto">View Project</a>
+                    <a href=${project.address} target="_blank" class="btn btn-primary text-light mt-auto">View Project</a>
                 </div>
             </div>
         </div>`

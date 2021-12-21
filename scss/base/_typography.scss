@@ -1,0 +1,44 @@
+// font-family: 'Martel', serif;
+// font-family: 'Work Sans', sans-serif;
+
+
+h1, h2, h3, h4, h5,
+button, li, .input-group-text
+.navbar-brand, .nav-link {
+    font-family: 'Martel', serif;
+}
+
+.card-body h5,
+p{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.navbar-brand,
+.nav-link {
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-size: 2rem;
+    @include media-q("small sc"){
+        font-size: 3rem;
+    }
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+.social-media{
+    font-size: 2.75rem;
+}
+
+h1{
+    -webkit-text-stroke: .25px white;
+}

@@ -1,0 +1,14 @@
+$primary: #8d8741;
+$secondary: #659dbd;
+$light: #FFFFFF;
+
+$navbar-light-color:                $light;
+$navbar-light-hover-color:          dakren( $light, 30%);
+$navbar-light-active-color:         darken( $light, 25%);
+$navbar-light-disabled-color:        $light;
+$navbar-light-toggler-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$navbar-light-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+$navbar-light-toggler-border-color:  $light;
+
+
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
