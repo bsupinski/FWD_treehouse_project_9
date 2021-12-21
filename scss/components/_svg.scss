@@ -1,9 +1,9 @@
-svg{
+#code_choices svg{
     width: 100px;
     transition: ease-in-out 200ms
 }
 
-svg:hover{
+#code_choices svg:hover{
     transform: scale(1.2);
     transition: ease-in-out 200ms;
 }

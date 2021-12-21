@@ -62,13 +62,13 @@ codeChoice.forEach(choice => {
 
 // Resetting code filter
 window.addEventListener("click", (e) =>{
-    if(e.target.classList.contains("card") || (e.target.parentNode.classList.contains("card")) || (e.target.parentNode.parentNode.classList.contains("card")) || (e.target === searchBar) || (e.target.classList.contains("carrot"))) {
+    if(e.target.classList.contains("card") || (e.target.parentNode.classList.contains("card")) || (e.target.parentNode.classList.contains("card")) || (e.target === searchBar) || (e.target.classList.contains("carrot"))) {
         return;
     }
     else{
         cards.forEach(card => {
             card.parentNode.style.display = "flex";
-            searchBar.value=""
+            searchBar.value="";
         })
     }
 }, true)
