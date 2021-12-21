@@ -113,14 +113,14 @@ treehouseProjects = [
         image: "images/bs_survey.JPG",
         address: "https://bsupinski.github.io/bs_udemy_survey/"
     },
-    bs_udemy_4 = {
+    bs_udemy_5 = {
         title: "Bootstrap Landing PAge Template",
         codes: "HTML Bootstrap 5",
         description: "Using strictly bootstrap 5 classes, create a portfolio template.",
         image: "images/bs_landingpage.JPG",
         address: "https://bsupinski.github.io/bs_udemy_landingpage/"
     },
-    bs_udemy_4 = {
+    bs_udemy_6 = {
         title: "Bootstrap Small Business Template",
         codes: "HTML Bootstrap 5",
         description: "Using strictly bootstrap 5 classes, create a portfolio template.",
