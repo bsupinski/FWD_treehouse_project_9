@@ -103,7 +103,7 @@ treehouseProjects = [
         title: "Bootstrap Knowledgebase Template",
         codes: "HTML Bootstrap 5",
         description: "Using strictly bootstrap 5 classes, create a portfolio template.",
-        image: "images/bs_Knowledgebase.jpg",
+        image: "images/bs_knowledgebase.jpg",
         address: "https://bsupinski.github.io/bs_udemy_knowledgebase/"
     },
     bs_udemy_4 = {
