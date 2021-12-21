@@ -67,7 +67,7 @@ treehouseProjects = [
         title: "Chatapp- Mockup",
         codes: "HTML CSS Sass Javascript",
         description: "You've been asked to create a chat interface! This will test your CSS skills by structuring multiple elements within a single container.",
-        image: "images/practice-1.JPG",
+        image: "images/practice-1.jpg",
         address: "https://bsupinski.github.io/FWD_treehouse_practice_1"
     },
 
